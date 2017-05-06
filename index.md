@@ -3,14 +3,15 @@ title:	ASTRO 250 Final Project
 subtitle:	Spring 2017, University of California, Berkeley
 author:	Kolen Cheung
 date:	\today
-abstract:	Abstract here.
+abstract:	|
+	Below we describe a project involving the high-$l$ analysis of POLARBEAR's CMB data. This analysis is prohibitively expensive the current pipeline is used, estimated to be around $220,000$ NERSC hours and requires at least $244$ TB of disk space. Plans for improvement is laid out and with the improvement made, the amount of NERSC hours needed are estimated to be as low as $14,000$ and conservatively to be $100,000$; and there will be no hard lower limit on the amount of diskspace required but suggested to use all $20$ TB of scratch space available on Cori. Depending on the availability and amount of burst buffer, burst buffer should be used for the intermediate I/O.
 keywords:	ASTRO250, Parallel Computing, POLARBEAR, CMB, final project
 lang:	en
 papersize:	letter
-fontsize:	12pt
+fontsize:	10pt
 documentclass:	memoir
-classoption:	article
-geometry:	inner=1.5in, outer=1.5in, top=1.5in, bottom=1.75in
+classoption:	article, twocolumn
+geometry:	inner=1in, outer=1in, top=1in, bottom=1.25in
 fontfamily:	fourier
 usepackage:	siunitx,cancel,physics,placeins
 hypersetup:	bookmarksnumbered,pdfpagelabels,pagebackref,hypertexnames=false,linktocpage=true
